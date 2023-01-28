@@ -1,0 +1,78 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image/pngtree-calculator-childrens-day-toy-background-image_582237.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: rgb(127, 136, 255);
+}
+
+.calculator {
+  background-color: #0f10118c;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px #e4e2e2, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+}
+h1.heading {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 29px 0px;
+  color: rgb(24, 17, 17);
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 12px #1762b9, 5px 5px 12px rgb(0, 0, 0, 0.16);
+}
+h1:hover {
+  color: rgb(130, 36, 212);
+}
+input {
+  grid-column: span 4;
+  border: none;
+  height: 70px;
+  width: 260px;
+  background-color: #ecf0f3;
+  box-shadow: inset 5px 5px 12px #f13131ef, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  border-radius: 40px;
+  color: rgb(21, 17, 17);
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+button {
+  height: 48px;
+  width: 48px;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #a32222, -5px -5px 12px rgba(17, 3, 3, 0.16);
+  border: none;
+  border-radius: 50%;
+  margin: 8px;
+  font-size: 19px;
+}
+.equal {
+  width: 115px;
+  border-radius: 40px;
+  background-color: #ecf0f3;
+  box-shadow: inset 5px 5px 12px #cc2626, 5px 5px 12px rgb(0, 0, 0, 0.16);
+}
